@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Conference table</title>
+</head>
+<style>
+    table,
+    th,
+    td,
+    tr {
+        border: 1px solid black;
+    }
+</style>
+
+<body>
+    <h1>Conference Table</h1>
+    <table>
+        <tr>
+            <th>Time</th>
+            <th>Room1</th>
+            <th>Room2</th>
+            <th>Room3</th>
+            <th>Room4</th>
+        </tr>
+        <tr>
+            <td rowspan='3'>
+                9:00 Am - 10:00 Am</tdcolspan>
+            </td>
+            <td rowspan='2'>keynote</td>
+            <td>Section A</td>
+            <td>Section B</td>
+            <td rowspan='3'>Section c</td>
+        </tr>
+        <tr>
+
+            <td>Section D</td>
+            <td>Section E</td>
+        </tr>
+        <tr>
+            <td>10:30 Am - 11:30 Am</td>
+            <td colspan="2">Section F</td>
+        </tr>
+        <tr>
+            <td>12:30 Pm - 1:00 Pm</td>
+            <td colspan="4">lunch Break</td>
+        </tr>
+        <tr>
+            <td rowspan="2">1:00 Pm - 2:00 Pm</td>
+            <td>Section G</td>
+            <td rowspan="2">Section H</td>
+            <td>Section I</td>
+            <td>Section J</td>
+        </tr>
+        <tr>
+            <td>Section K</td>
+            <td>Section L</td>
+            <td>Section M</td>
+        </tr>
+    </table>
+</body>
+
+</html>
