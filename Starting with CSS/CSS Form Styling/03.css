@@ -1,0 +1,46 @@
+.first-name{
+   
+    background-color: rgba(100, 148, 237, 0.239);
+}
+.first-name::placeholder{
+    color:black;
+}
+.last-name{
+    background-color: rgba(0, 0, 255, 0.25);
+}
+.last-name::placeholder{
+    color: rgb(243, 7, 7);
+}
+.email{
+    background-color: rgba(0, 255, 255, 0.679);
+}
+.email::placeholder{
+    color:darkslategray;
+
+}
+.password{
+    background-color: rgba(127, 255, 212, 0.211);
+}
+.password::placeholder{
+    color: rgb(67, 8, 122);
+
+}
+.confirm-password{
+    background-color: rgba(255, 20, 145, 0.196);
+}
+.confirm-password::placeholder{
+    color: rgb(13, 0, 255);
+
+}
+
+.age{
+    background-color: rgba(173, 216, 230, 0.41);
+}
+.age::placeholder{
+    color:green;
+
+}
+.submit{
+    background-color: rgba(172, 255, 47, 0.254);
+    color:darkred;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEM Naming </title>
+    <link rel="stylesheet" href="./02.css">
+</head>
+
+<body>
+    <div class="title">
+        <h1> Understanding the CSS BEM Naming Convention </h1>
+    </div>
+    <div class="title__intro">
+        <p>
+            The BEM (Block Element Modifier) naming convention is a method of organizing and struct
+            uring CSS classes to make it easier for developers to understand and maintain their codebases. It
+            helps in creating reusable stylesheets by assigning specific meanings to each class so that they
+            can be easily identified and manipulated as needed. In this article, we will explore how to
+            implement the BEM naming convention in your HTML/CSS files.
+        </p>
+    </div>
+    <div class="subtitle">
+        <h2>The BEM Convention</h2>
+    </div>
+    <p class="subtitle__para">
+        According to the BEM convention, every element on a webpage should be broken down into three parts
+        - block, element, modifier names to construct CSS names and are separated by double underscores (__) and hyphens
+        (-).Each block consists of elements and modifiers that can be used to create variations of that block. This
+        approach makes it easy to understand the purpose of each class and how they relate to each other.
+    </p>
+    <div class="detail">
+        <h3>Components of BEM</h3>
+    </div>
+    <p class="detail__para">
+        Blocks: A block represents the highest-level abstraction of the component. It is represented by a single word
+        and represents a standalone entity that is meaningful on its own. For example, a button, a form, a header, etc.
+        Elements: An element represents a part of the block. It is represented by the block name followed by two
+        underscores (__) and the element name. For example, if the block name is ‘button’, the element name can be
+        ‘label’ or ‘icon’.
+        Modifiers: A modifier represents a variation of the block or element. It is represented by the block or element
+        name followed by a single hyphen (-) and the modifier name. A modifier can be used to change the appearance or
+        behavior of a block or element. For example, a button can have different variations like ‘primary’, ‘secondary’,
+        ‘disabled’ etc.
+    </p>
+    <button class="button" href="./02.css">Lear more about BEM ></button>
+    <br> <br>
+    <button class="primary--button">For more info click here</button>
+
+</body>
+
+</html>

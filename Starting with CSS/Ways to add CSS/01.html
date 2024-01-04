@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Styling</title>
+</head>
+<style>
+    .internal {
+        background-color: rgb(173, 212, 173);
+        font-size: 20px;
+    }
+</style>
+
+<body>
+    <h1>What is CSS?</h1>
+    <hr>
+    <p>
+    <div style="color: rgba(209, 48, 48, 0.765);font-size: 20px;text-decoration: underline;">CSS stands for Cascading
+        Style
+        Sheets</div> This the language used to style an HTML file and <u><mark>tell the browser how it should render the
+            elements
+            on the page</u></mark>.
+    <hr>
+    <b> what is StyleSheet? </b><br><i><mark>A set of rules that specify the presentation of a document</mark>. Style
+        sheets are
+        written by
+        an Author,
+        and interpreted by User Agent, to present the document to the User. <br><mark>Author</mark> is a person who
+        writes documents
+        and
+        associated style sheets, An authoring tool is a User
+        Agent that generates style sheets. <br><mark>The User-agent </mark>basically refers to a browser. User-agent
+        applies default
+        styles as provided
+        by the browser vendor.<br>To Learn more about what CSS is Visit the following Website </i><br>
+    <a href="https://www.w3schools.com/css/css_intro.asp">Learn more</a>
+    </p>
+    <hr>
+    <h2>Ways to add CSS</h2>
+
+    <p>
+        There are different ways to add CSS in HTML Doctuments . So let's explore the ways to add CSS . <br><u>We can
+            add
+            CSS in following way</u> :
+    <ul>
+        <li>Inline CSS</li>
+        <p>
+        <div style="color:blue; font-size:24px;">
+            Inline CSS is added directly to an element using the style attribute. It overrides any other
+            CSS rules. Example: <br>
+        </div>
+        </p>
+        <li>Extrenal CSS</li>
+        <div class="external">
+            This type of CSS is linked from an external .css file. The link tag specifies the
+            relationship between the HTML document and the external CSS file. Example:</div> <br>
+        <link rel="stylesheet" href="./01.css">
+        <!-- rel attribute shows the relationship whats the realation sheep between current doc and the doc we are using in href (Here stylesheet shows the file is CSS) -->
+        <li>Internal css</li>
+        <div class="internal">A internal or embedded CSS is placed within a style tag in the head section of an HTML
+            document
+            Example: </div><br>
+
+
+    </ul>
+    </p>
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+h1{
+    color:darkmagenta
+}
+h2{
+    font-family:'Times New Roman', Times, serif;
+    color:darkmagenta
+}
+
+.external{
+    color: darkcyan;
+    background-color: rgb(236, 220, 228);
+    font-size: 23px;
+    font-family:fantasy;
+}
+li{
+    color: red;
+    font-size: 20px;
+    text-decoration: underline;
+}
