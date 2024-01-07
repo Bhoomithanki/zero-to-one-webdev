@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static element
+    </title>
+    <style>
+        .container {
+            display: inline-block;
+
+        }
+
+        .card {
+            color: black;
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+            background-color: green;
+            border: 2px solid black;
+            z-index: 200;
+        }
+
+        #card2 {
+            background-color: rgb(255, 6, 93);
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            z-index: 20;
+        }
+
+        #card3 {
+            background-color: rgb(6, 234, 255);
+            position: absolute;
+            top: 40px;
+            left: 40px;
+            z-index: 30;
+        }
+
+        #card4 {
+            background-color: rgb(110, 33, 86);
+            position: absolute;
+            top: 50px;
+            left: 60px;
+
+        }
+    </style>
+</head>
+
+<body></body>
+
+<div class="container">
+    <div class="card" id="card1">1</div>
+    <div class="card" id="card2">2</div>
+    <div class="card" id="card3">3</div>
+    <div class="card" id="card4">4</div>
+</div>
+<br><br><br><br>
+<p>The z-index property specifies the stack order of an element.
+
+    An element with greater stack order is always in front of an element with a lower stack order.</p>
+<p>Values of z-index are as follow:</p>
+<ul>
+    <li><mark>VALUE AUTO :</mark> The box does not establish a new local stacking context. The stack level of the
+        generated
+        box in the
+        current stacking context is 0.</li>
+    <li><mark>VALUE NUMBER:</mark> Sets the stack order of the element. Negative numbers are allowed.</li>
+    <li><mark>VALUE
+            INITIAL :</mark> Sets this
+        property to its default value.</li>
+    <li><mark>VALUE INHERIT :</mark> Inherits this property from its parent element.</li>
+</ul>
+
+
+
+
+</body>
+
+</html>
