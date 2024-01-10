@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox Layout Property</title>
+</head>
+<style>
+    li {
+        font-size: 27px;
+    }
+</style>
+
+<body>
+    <h1>FlexBox Layout Property</h1>
+    <h2>What is FlexBox LayOut ?</h2>
+    <p>
+        It was designed as a<u>one-dimensional layout model</u> , and as a method that could offer <u>space distribution
+            between items in an interface and powerful alignment capabilities.</u> <br>When we describe flexbox as being
+        one-dimensional we are describing the fact that flexbox <mark><u>deals with layout in one dimension at a time —
+                as a row or as a column.</u></mark>
+    </p>
+    <hr>
+    <h3>The two Axies of FlexBox</h3>
+    <p>When working with flexbox you need to think in terms of two axes — <br><mark><u>the main axis and <br>the cross
+                axis.</u></mark><br> </p>
+    <hr>
+    <h3>The Main Axies</h3>
+    <p>The main axis is defined by <mark>flex-direction</mark>, which has <u>four possible values:</u> <br>
+    <ul>
+        <li>row</li>
+        <li>row-reverse</li>
+        <p><mark><U>When you choose row or row-reverse your main axis will run along the row in the inline
+                    direction.</U></mark></p>
+        <li>column</li>
+        <li>column-reverse</li>
+        <p><mark><U>When you choose column or column-reverse and your main axis will run from the top of the page to the
+                    bottom — in the block direction.</U></mark></p>
+    </ul>
+    </p>
+    <h3>The Cross Axies</h3>
+    <p>The cross axis runs<mark>perpendicular to the main axis</mark> , therefore <u>if your flex-direction (main axis)
+            is set to row or row-reverse the cross axis runs down the columns</u>.</p>
+
+    <h3>Lets Learn more About the Properties:
+    </h3>
+    <ul>
+        <li><mark><u><b><i>Justify-content</i></b></u></mark></li>
+        <p>The CSS justify-content property defines how the browser distributes <u>space between and around content
+                items along the main-axis of a flex container</u>. <br>
+            <b><i><u>/* Positional alignment */</u></i></b> <br>
+            <mark>justify-content: center;</mark> /* Pack items around the center */<br>
+            <mark>justify-content: start; </mark>/* Pack items from the start */<br>
+            <mark>justify-content: end;</mark> /* Pack items from the end */<br>
+            <mark>justify-content: flex-start; </mark>/* Pack flex items from the start */<br>
+            <mark>justify-content: flex-end;</mark> /* Pack flex items from the end */<br>
+            <mark>justify-content: left; </mark>/* Pack items from the left */
+            <mark>justify-content: right;</mark> /* Pack items from the right */<br><br>
+            <b><i><u> /* Normal alignment */</u></i></b><br>
+            <mark>justify-content: normal;</mark><br><br>
+
+            <b><i><u>/* Distributed alignment */</u></i></b><br>
+            <mark>justify-content: space-between; </mark>/* Distribute items evenly
+            The first item is flush with the start,
+            the last is flush with the end */<br>
+            <mark>justify-content: space-around;</mark> /* Distribute items evenly
+            Start and end gaps are half the size of the space
+            between each item */<br>
+            <mark>justify-content: space-evenly;</mark> /* Distribute items evenly
+            Start, in-between, and end gaps have equal sizes */<br>
+            <mark>justify-content: stretch;</mark> /* Distribute items evenly
+            Stretch 'auto'-sized items to fit
+            the container */<br><br>
+
+            <b><i><u>/* Overflow alignment */</u></i></b><br>
+            <mark>justify-content: safe center;</mark><br>
+            <mark>justify-content: unsafe center;</mark><br><br>
+
+            <b><i><u> /* Global values */</u></i></b><br>
+            <mark> justify-content: inherit;</mark><br>
+            <mark>justify-content: initial;</mark><br>
+            <mark>justify-content: revert;</mark><br>
+            <mark>justify-content: revert-layer;</mark><br>
+            <mark>justify-content: unset;</mark><br>
+        </p>
+        <li><mark><u><b><i>align-items</i></b></u></mark></li>
+        <p>
+            The CSS align-items property sets the align-self value on all direct children as a group. In Flexbox,
+            it<mark> controls the alignment of items on the Cross Axis</mark>.
+            <br>
+            <b><i><u>/* Basic keywords */</u></i></b><br>
+            <mark>align-items: normal;</mark><br>
+            <mark>align-items: stretch;</mark><br>
+
+            <b><i><u> /* Positional alignment */</u></i></b><br>
+            /* align-items does not take left and right values */ <br>
+            <mark>align-items: center;</mark><br>
+            <mark>align-items: start;</mark><br>
+            <mark>align-items: end;</mark><br>
+            <mark>align-items: flex-start;</mark><br>
+            <mark>align-items: flex-end;</mark><br>
+            <mark>align-items: self-start;</mark><br>
+            <mark>align-items: self-end;</mark><br>
+
+            <b><i><u> /* Baseline alignment */</u></i></b><br>
+            <mark>align-items: baseline;</mark><br>
+            <mark>align-items: first baseline;</mark><br>
+            <mark>align-items: last baseline;</mark>/* Overflow alignment (for positional alignment only) */ <br>
+            <mark> align-items: safe center;</mark><br>
+            <mark> align-items: unsafe center;</mark><br>
+
+            <b><i><u> /* Global values */</u></i></b><br>
+            <mark>align-items: inherit;</mark><br>
+            <mark>align-items: initial;</mark><br></mark><br>
+            <mark>align-items: revert;</mark><br>
+            <mark>align-items: revert-layer;</mark><br>
+            <mark>align-items: unset;</mark><br>
+        </p>
+        <li><mark><u><b><i>flex-direction</i></b></u></mark></li>
+        <p>
+            The flex-direction CSS property sets how flex <mark>items are placed in the flex container defining the main
+                axis and the direction (normal or reversed)</mark>. <br> <br>
+            <b><i><u>/* The direction text is laid out in a line */</u></i></b><br>
+            <mark> flex-direction: row;</mark><br><br>
+
+            <b><i><u>/* Like &lt;row &gt;, but reversed */</u></i></b><br>
+            <mark>flex-direction: row-reverse;</mark><br><br>
+
+            <b><i><u> /* The direction in which lines of text are stacked */</u></i></b><br>
+            <mark>flex-direction: column;</mark><br><br>
+
+            <b><i><u>/* Like &lt;column&gt;, but reversed */</u></i></b><br>
+            <mark>flex-direction: column-reverse;</mark><br><br>
+
+            <b><i><u> /* Global values */</u></i></b><br>
+            <mark>flex-direction: inherit;</mark><br>
+            <mark>flex-direction: initial;</mark><br>
+            <mark>flex-direction: revert;</mark><br>
+            <mark>flex-direction: revert-layer;</mark><br>
+            <mark>flex-direction: unset;</mark><br>
+        </p>
+        <li><mark><u><b><i>flex-wrap</i></b></u></mark></li>
+        <p>
+            It defines whether the <mark>flex items are forced in a single line or can be flowed into multiple
+                lines</mark>. If set to multiple lines, it also defines the cross-axis which determines the direction
+            new lines are stacked in, aiding responsiveness layout behavior without CSS media queries. <br><br>
+            <b><i><u>/* Default value */</u></i></b><br>
+            <mark>flex-wrap: nowrap; </mark>
+            <mark>flex-wrap: wrap;</mark><br>
+            <mark>flex-wrap: wrap-reverse;</mark><br><br>
+
+            <b><i><u>/* Global values */</u></i></b><br>
+            <mark>flex-wrap: inherit;</mark><br>
+            <mark>flex-wrap: initial;</mark><br>
+            <mark>flex-wrap: revert;</mark><br>
+            <mark>flex-wrap: revert-layer;</mark><br>
+            <mark>flex-wrap: unset;</mark><br>
+        </p>
+        <li><mark><u><b><i>gap</i></b></u></mark></li>
+        <p>The gap CSS shorthand property sets the gaps (gutters) between rows and columns. <br><br>
+            <b><i><u>/* One &lt;length&gt; value */</u></i></b><br>
+            <mark>gap: 20px;</mark><br>
+            <mark>gap: 1em;</mark><br>
+            <mark> gap: 3vmin;</mark><br>
+            <mark>gap: 0.5cm;</mark><br><br>
+
+            <b><i><u>/* One &lt;percentage&gt;value */</u></i></b><br>
+            <mark>gap: 16%;</mark><br>
+            <mark> gap: 100%;</mark><br><br>
+
+            <b><i><u>/* Two &lt;length&gt; values */</u></i></b><br>
+            <mark>gap: 20px 10px;</mark><br>
+            <mark>gap: 1em 0.5em;</mark><br>
+            <mark>gap: 3vmin 2vmax;</mark><br>
+            <mark>gap: 0.5cm 2mm;</mark><br><br>
+
+            <b><i><u>/* One or two &lt;percentage&gt; values */</u></i></b><br>
+            <mark> gap: 16% 100%;</mark><br>
+            <mark> gap: 21px 82%;</mark><br><br>
+
+            <b><i><u>/* calc() values */</u></i></b><br>
+            <mark> gap: calc(10% + 20px);</mark><br>
+            <mark>gap: calc(20px + 10%) calc(10% - 5px);</mark><br><br>
+
+            <b><i><u>/* Global values */</u></i></b><br>
+            <mark>gap: inherit;</mark><br>
+            <mark>gap: initial;</mark><br>
+            <mark>gap: revert;</mark><br>
+            <mark>gap: revert-layer;</mark><br>
+            <mark>gap: unset;</mark><br>
+        </p>
+    </ul>
+</body>
+
+</html>

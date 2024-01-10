@@ -1,0 +1,270 @@
+.irctc{
+    display: flex;
+}
+.parent{
+    margin: 0;
+    border: 1px solid rgb(254, 253, 253);
+    width: 1250px;
+    height: 640px;
+    background:rgb(254, 252, 252);
+}
+.top{
+    display: flex;
+}
+.logo{
+    justify-content:start;
+    margin: 20px;
+    padding: 15px 0 0 15px;
+}
+.top-but{
+    position: absolute;/* for aplling top and right we apply position */    
+    display: flex;
+    height: 40px;
+    width: 322px;
+    gap: 15px; 
+    top: 85px;
+    left: 300px;
+    border: 1px solid rgb(255, 255, 255);
+}
+a{
+    text-decoration: none;
+}
+#login{
+    font-size: 13px;
+    background-color: rgb(216, 88, 41);
+    padding: 7px;
+    width: 100px;
+    border: 1px solid white;
+    border-radius: 10px;
+   }
+#login a{
+    color: white;
+}
+#register{
+    font-size: 13px;
+    background-color: rgb(255, 255, 255);
+    padding: 7px;
+    width: 100px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+#agentregister{
+    font-size: 13px;
+    background-color: rgb(255, 255, 255);
+    padding: 7px;
+    width: 160px;
+    border: 1px solid #ccc; 
+    border-radius: 10px;
+}
+.middle{
+    position: absolute;
+    left: 47px;
+}
+h1{
+    font-family: 'Lato', sans-serif;
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+.color-ssp{
+    display: flex;
+    gap: 20px;
+    font-size: 28px;
+    font-family:sans-serif;
+    letter-spacing: 1px;
+}
+#Safety{
+    color: green;
+}
+#Security{
+    color: rgb(255, 89, 0);
+}
+#Punctualit{
+    color: #333333;
+}
+.ticket-button{
+    display: flex;
+    gap: 30px;
+    position: absolute;
+    top: 300px;
+    left: 47px;
+    
+}
+#book-ticket{
+    background-color: #213D77;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+    color: white;
+    width: 150px;
+    font-weight: 700;
+   
+}
+#pnr-status{
+    background-color:white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+    color: black;
+    width: 150px;
+    font-weight: 700;
+}
+
+#chart{
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+    color:black;
+    width: 190px;
+    font-weight: 700;
+}
+
+.select-location{
+    padding: 5px;
+    width: 550px;
+    height: 70px;
+    border: solid 1px grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    top:370px;
+    left: 47px;
+    font-family: 'Lato', sans-serif;
+}
+.fromwhere{
+   color: #8c8b8b; 
+   gap: 10px;
+
+}
+.going{
+    position: absolute;
+    left: 9px;
+    top: 20px;
+}
+.selectelocation-pickup{
+    color: black;
+    font-size: 24px;
+    font-weight: 500;
+}
+.from-where-to-where{
+   color: #8c8b8b; 
+   gap: 10px;
+
+}
+.going-coming{
+    position: absolute;
+    right: 260px;
+    top: 17px;
+}
+.towhere{
+   color: #8c8b8b; 
+   gap: 10px;
+
+}
+.coming{
+    position: absolute;
+    right:180px;
+    top: 20px;
+}
+.selectelocation-drop{
+    color: black;
+    font-size: 24px;
+    font-weight: 500;
+    
+}
+.date-seat-selection{
+    padding: 5px;
+    width: 550px;
+    height: 70px;
+    border: solid 1px grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    top:470px;
+    left: 47px;
+    font-family: 'Lato', sans-serif;
+}
+.date{
+   color: #8c8b8b; 
+   gap: 10px;
+
+}
+.calender{
+    position: absolute;
+    left: 7px;
+    top: 20px;
+}
+.selecteddate{
+    color: black;
+    font-size: 24px;
+    font-weight: 500;
+}
+.tier-type{
+    color: #8c8b8b; 
+    gap: 10px;
+}
+ .group{
+     position: absolute;
+     left: 230px;
+     top: 20px;
+ }
+ .tier{
+     color: black;
+     font-size: 24px;
+     font-weight: 500;
+ }
+ .type-of-seat{
+    color: #8c8b8b; 
+    gap: 10px;
+ }
+ .seat{
+     position: absolute;
+     right: 145px;
+     top: 20px;
+ }
+ .seat:hover{
+    cursor: pointer;
+ }
+ .seattype{
+     color: black;
+     font-size: 24px;
+     font-weight: 500;
+ }
+ .search-train-button{
+    padding: 5px;
+    width: 550px;
+    height: 35px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    top:570px;
+    left: 47px;
+    font-family: 'Lato', sans-serif;
+ }
+ .search{
+    width: 550px;
+    height: 45px;
+    background-color:  #01BB0A;
+    color: white;
+    font-weight: 500;
+    font-size: 24px;
+    border: #01BB0A;
+    border-radius: 10px;
+ }
+.train-image{
+     display: inline-block;
+   
+    width: 50%;
+    height: auto;
+}
+    #train{
+    height: 650px;
+    width: 590px;
+    }

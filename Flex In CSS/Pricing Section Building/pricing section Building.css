@@ -1,0 +1,68 @@
+h2 {
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+
+}
+
+.parent {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: #F4F2FD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.class {
+    width: 270px;
+    height: 55%;
+    border-radius: 10px;
+}
+
+.class1 {
+    padding: 10px;
+    background-color: white;
+    color: #202842;
+    border: 1px solid #ccc;
+    
+}
+
+.class2 {
+    padding: 10px;
+    background-color: #202842;
+    color: white;
+    border: 1px solid #ccc;
+}
+
+.class3 {
+    padding: 10px;
+    background-color: white;
+    color: #202842;
+    border: 1px solid #ccc;
+}
+.buttonsubscribenow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Subscribenow {
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    background-color: #202842;
+    color: white;
+    margin: 20px;
+    width: 200PX;
+    }
+    .button2{
+        background-color: #ffffff;
+        color: #202842;
+    }
