@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Use of grid-auto-row and grid-auto-column</title>
+    <style>
+        .row-auto-example {
+            display: grid;
+            gap: 5px;
+            grid-template-columns: 50px 50px 50px;
+            grid-template-rows: 50px;
+            grid-auto-rows: 100px;
+            /* rows which are not pre defined with any dimension will use this 100px */
+        }
+
+        .item {
+            background-color: aqua;
+        }
+
+        .column-auto-example {
+            display: grid;
+            grid-gap: 15px;
+            grid-template-areas: "i i i";
+            grid-template-columns: 50px;
+            grid-auto-columns: 100px;
+            grid-template-rows: 50px 60px;
+            /* column which are not pre defined with any dimension will use this 100px */
+        }
+
+        .items {
+
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Use of grid-auto-row :</h1>
+    <hr>
+    <p>The grid-auto-rows CSS property specifies the size of an implicitly-created grid row track or pattern of tracks.
+    </p>
+    <div class="row-auto-example">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+    </div>
+    <h1>Use of grid-auto-column :</h1>
+    <hr>
+    <p>The grid-auto-column CSS property specifies the size of an implicitly-created grid column track or pattern of
+        tracks.
+    </p>
+    <div class="column-auto-example">
+        <div class="items">a</div>
+        <div class="items">b</div>
+        <div class="items">c</div>
+        <div class="items">d</div>
+        <div class="items">e</div>
+        <div class="items">f</div>
+        <div class="items">g</div>
+        <div class="items">h</div>
+        <div class="items">i</div>
+    </div>
+</body>
+
+</html>

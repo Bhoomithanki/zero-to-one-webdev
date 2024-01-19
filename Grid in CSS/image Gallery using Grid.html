@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery Using Grid</title>
+    <style>
+        .collector {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(4, 200px);
+
+        }
+
+        .imgs {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .img1 {
+            grid-template: 1/2/1/2;
+        }
+
+        .img2 {
+            grid-template: 2/3/1/2;
+        }
+
+        .img3 {
+            grid-template: 3/4/1/2;
+        }
+
+        .img4 {
+            grid-template: 1/2/2/3;
+        }
+
+        .img5 {
+            grid-template: 2/3/2/3;
+        }
+
+        .img6 {
+            grid-template: 3/4/2/3;
+        }
+
+        .img7 {
+            grid-template: 1/2/3/4;
+        }
+
+        .img8 {
+            grid-row-start: 2/3/3/4;
+        }
+
+        .img9 {
+            grid-row-start: 3/4/3/4;
+        }
+
+        .img10 {
+            grid-row-start: 1/2/4/5;
+        }
+
+        .img11 {
+            grid-row-start: 2/3/4/5;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="collector">
+        <div class=" imgs img1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLJEuOfR9xJ3FHRJe8RWb1MEJTPNA6L4tBtsAPOBDnE8L7HyW6Ktra98WFMKyocXlCQ70&usqp=CAU"
+                alt="">
+        </div>
+        <div class="imgs img2">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFq9PJ10_cbOxdDEVtO5wuVmIs6txlF3GyOA&usqp=CAU"
+                alt="">
+        </div>
+        <div class="imgs img3">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLJEuOfR9xJ3FHRJe8RWb1MEJTPNA6L4tBtsAPOBDnE8L7HyW6Ktra98WFMKyocXlCQ70&usqp=CAU"
+                alt="">
+        </div>
+        <div class="imgs img4">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVesNWhU6GFVoMJH94h-jo5nXNRVixRU7_pZTgqdI8KVtlgCUBAWz6JwbO4GAWRMzMrPM&usqp=CAU"
+                alt="">
+        </div>
+
+
+        <div class="imgs img6">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLJEuOfR9xJ3FHRJe8RWb1MEJTPNA6L4tBtsAPOBDnE8L7HyW6Ktra98WFMKyocXlCQ70&usqp=CAU"
+                alt="">
+        </div>
+        <div class="imgs img7">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLJEuOfR9xJ3FHRJe8RWb1MEJTPNA6L4tBtsAPOBDnE8L7HyW6Ktra98WFMKyocXlCQ70&usqp=CAU"
+                alt="">
+        </div>
+        <div class="imgs img8">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2roeJ6kXjrOO6L5HAEk4pPCX2l8-T12NxbfFSyAZNBjsXbdNt3xetw1dwlvPDGDMS_30&usqp=CAU"
+                alt="">
+        </div>
+        <div class="imgs img9">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvxhheqLF1thktWmA20crARzaAl-pb5pkf5Q&usqp=CAU"
+                alt="">
+        </div>
+        <div class="imgs img10">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2n1qdlFTDhjhUhft7LsjISQV5s2ra39I9SiEcLKO9rzynrcAreovblqitQOXe7wNxUM0&usqp=CAU"
+                alt="">
+        </div>
+        <div class="imgs img11">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFq9PJ10_cbOxdDEVtO5wuVmIs6txlF3GyOA&usqp=CAU"
+                alt="">
+        </div>
+    </div>
+
+</body>
+
+</html>
