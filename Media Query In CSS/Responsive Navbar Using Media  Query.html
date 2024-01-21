@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reasponsive Navbar Using Media Query</title>
+    <style>
+        body {
+            width: 100vw;
+            height: 100vh;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: rgb(46, 44, 44);
+            color: aliceblue;
+        }
+
+        nav a {
+            padding: 10px;
+            text-decoration: none;
+        }
+
+        @media screen and (max-width:768px) {
+            nav {
+                background-color: grey;
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="">home</a>
+        <a href="">About</a>
+        <a href="">Services</a>
+        <a href="">Portfolio</a>
+        <a href="">Contact</a>
+    </nav>
+</body>
+
+</html>

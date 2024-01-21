@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reasponsive Image Gallery Using Media Query</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .pictures {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-wrap: wrap;
+            /* so here the flex-wrap is used so that it can adjust the images with change in height and width of device */
+        }
+
+        img {
+            width: 33.33%;
+            height: 50%;
+        }
+
+        @media screen and (max-width:800px) {
+            .pictures img {
+                width: 50%;
+            }
+        }
+
+        @media screen and (max-width:500px) {
+            .pictures img {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="pictures">
+        <img src="https://cdnb.artstation.com/p/assets/images/images/043/766/531/large/nikhil-mishra-mahadev-4-1a-wm.jpg?1638209259"
+            alt="Mahadev">
+        <img src="https://cdnb.artstation.com/p/assets/images/images/043/766/531/large/nikhil-mishra-mahadev-4-1a-wm.jpg?1638209259"
+            alt="Mahadev">
+        <img src="https://cdnb.artstation.com/p/assets/images/images/043/766/531/large/nikhil-mishra-mahadev-4-1a-wm.jpg?1638209259"
+            alt="Mahadev">
+    </div>
+
+</body>
+
+</html>
