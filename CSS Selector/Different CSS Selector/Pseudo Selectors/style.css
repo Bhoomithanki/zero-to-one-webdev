@@ -1,0 +1,10 @@
+p:last-child::after{
+        content: "...";
+}
+li::marker{
+    color: red;
+}
+p:nth-child(even)::first-letter{
+    font-size: 24px;
+    color: rgb(28, 137, 131);
+}

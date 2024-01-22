@@ -1,0 +1,11 @@
+a[href]{
+    color: red;
+    text-decoration: none;
+}
+a[class="active"]{
+    color:green;
+    text-decoration: underline;
+}
+a[target="_self"]{
+    background-color:rgb(174, 131, 176);
+}

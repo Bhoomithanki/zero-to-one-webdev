@@ -1,0 +1,11 @@
+div a{
+    color: red;
+}
+nav > h2{
+    color: green;
+    background-color: rgb(207, 168, 70);
+    width: 50px;
+}
+div + p{
+    color: red;
+}

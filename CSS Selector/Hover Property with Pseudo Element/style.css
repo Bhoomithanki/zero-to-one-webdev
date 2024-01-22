@@ -1,0 +1,21 @@
+.with {
+    width: 100px;
+    padding: 10px 20px;
+    background-color: rgb(212, 206, 40);
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+}
+
+.with:hover{
+    background-color: rgb(174, 170, 31);
+    box-shadow:  5px 5px 5px rgba(110, 108, 65, 0.735);
+    
+}
+.without{
+    width: 100px;
+    padding: 10px 20px;
+    background-color: rgb(212, 206, 40);
+    border: none;
+    border-radius: 20px;
+}
