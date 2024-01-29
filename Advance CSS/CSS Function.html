@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS VAR Function</title>
+    <style>
+        .container {
+            margin: 0;
+            padding: 0;
+            --primary--bg--color: #00b7ff;
+            --secondary--bg--color: #6c757d;
+        }
+
+
+
+        .primaryBtn {
+            background-color: var(--primary--bg--color);
+            width: 150px;
+            border: none;
+            padding: 10px 10px;
+        }
+
+        .secondaryBtn {
+            background-color: var(--secondary--bg--color);
+            width: 150px;
+            border: none;
+            padding: 10px 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+
+        <h1>Whats the use of var() Function in CSS?</h1>
+        <p>The var() function is used to <mark> the value of a CSS variable</mark>. <br><u>A good way to use CSS
+                variables
+                is when
+                it comes to the colors of your design.</u> Instead of copy and paste
+            the same colors over and over again, you can place them in variables. <br><br>First of all: CSS variables
+            can have a global or local scope. <br>
+
+            <li>Global variables can be accessed/used through the entire document.</li>
+            <li> while local variables can be used only inside the selector where it is declared.</li> <br>
+
+            To create a variable with <mark>global scope, declare it inside the :root selector.</mark> The :root
+            selector matches the document's root element. <br>
+
+            To create a variable with <mark>local scope, declare it inside the selector that is going to use
+                it.</mark><br>
+
+            The following example is where we use the var() function.
+        </p>
+        <p>In this case Instead of using the color again and again we give the color to the local varaible in the parent
+            <br>FOR PRIMARY BUTTON :--primary--bg--color: #00b7ff; <br>
+            FOR SECONDARY BUTTON :--secondary--bg--color: #6c757d;
+        </p>
+        <button class="primaryBtn">primaryBtn</button>
+        <button class="secondaryBtn">secondaryBtn</button>
+
+    </div>
+</body>
+
+</html>
